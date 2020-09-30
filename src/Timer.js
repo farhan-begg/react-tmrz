@@ -8,3 +8,6 @@ class Timer {
 }
 
 export default Timer;
+
+
+var myTimer = new Timer('Workout');
