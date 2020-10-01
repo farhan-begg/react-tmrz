@@ -1,6 +1,6 @@
-
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
+import './NewTimer.css'
 
 import { addTimer } from '../actions'
 
@@ -9,7 +9,7 @@ export default function NewTimer() {
     const [name, setName] = useState('')
 
     return (
-        <div>
+        <div className="NewTimer">
             <input
                 type='text'
                 placeholder="New Timer Name"

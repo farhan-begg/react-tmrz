@@ -22,3 +22,11 @@ export const selectTimer = (index) => {
         payload: { index }
     }
 }
+
+export const UPDATE = "UPDATE"
+export const update = (deltaTime) => {
+    return {
+        type: UPDATE,
+        payload: { deltaTime }
+    }
+}
